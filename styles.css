@@ -3,6 +3,25 @@
     padding: 0px;
 }
 
-p {
-    background-color: orange;
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sideBar ul {
+    margin-top: 2rem;
+}
+
+.sideBar ul li, .sideBar h1 {
+    margin: 0.5rem;
+}
+
+.sideBar a {
+    text-decoration: none;
 }
