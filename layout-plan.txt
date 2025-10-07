@@ -1,3 +1,5 @@
+Warning: layout plan isn't reflective of the final html. It's a plan after all
+
 body is a grid 1x2 (rows x columns) contains sideBar and mainBar
 
 div.sideBar and div.mainBar are column (vertical) flexboxes
@@ -15,3 +17,7 @@ your Projects trending
 div.yourProjects is a grid in autofit sizes, contains many card divs
 
 div.announcements and div.trending are column flexboxes.
+
+Each div.trendCard is a grid 2x2 with layout:
+profilePic handle
+profilePic projectName
