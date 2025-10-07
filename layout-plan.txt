@@ -1,0 +1,17 @@
+body is a grid 1x2 (rows x columns) contains sideBar and mainBar
+
+div.sideBar and div.mainBar are column (vertical) flexboxes
+
+div.mainBar contains: headerBar1, headerBar2 and mainContent
+
+div.headerBar1 and div.headerBar2 are row (horizontal) flexboxes
+
+div.mainContent is a grid 2x2, contains yourProjects, announcements, and trending, layout:
+
+your Projects announcements
+your Projects trending
+(really, line 2 in this grid plays with only announcements and trending)
+
+div.yourProjects is a grid in autofit sizes, contains many card divs
+
+div.announcements and div.trending are column flexboxes.
