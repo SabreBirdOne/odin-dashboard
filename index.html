@@ -6,7 +6,47 @@
     <title>ODIN Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <p>ODIN Dashboard</p>
-</body>
+    <body>
+        <div class="sidebar">
+            <h1>Dashboard</h1>
+            <ul>
+                <a href="#">Home</a>
+                <a href="#">Profile</a>
+                <a href="#">Messages</a>
+                <a href="#">History</a>
+                <a href="#">Tasks</a>
+                <a href="#">Communities</a>
+            </ul>
+            <ul>
+                <a href="#">Settings</a>
+                <a href="#">Support</a>
+                <a href="#">Privacy</a>
+            </ul>
+        </div>
+
+        <div class="mainBar">
+            <div class="headerBar1">
+                <form action="#" post="GET">
+                    <input type="search" id="searchBar" name="searchBar">
+                </form>
+                <a href="#" id="notificationsButton">N</a>
+                <img class="profilePic" id="profilePicSmall" alt="profilePic">
+                <div class="fullName" id="fullNameSmall">Full Name</div>
+            </div>
+            <div class="headerBar2">
+                <img class="profilePic" alt="profilePic">
+                <div class="greeting">
+                    <p>Hi there,</p>
+                    <div class="fullName" id="fullNameHandle">Full Name (@handle)</div>
+                </div>
+                <form action="#" method="POST">
+                    <a href="#">New</a>
+                    <a href="#">Upload</a>
+                    <a href="#">Share</a>
+                </form>
+            </div>
+        </div>
+
+
+    </body>
 </html>
