@@ -68,3 +68,23 @@ form input {
     width: 10ch;
     padding: 0.5rem;
 }
+
+.mainContent {
+    display: grid;
+    gap: 2rem;
+    grid-template: repeat(2, 1fr) / 2fr 1fr
+}
+
+.yourProjectsSection {
+    grid-row: 1 / 3;
+}
+
+.yourProjectsSection > * {
+    margin: 1rem;
+}
+
+.yourProjects {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(40ch, 1fr));
+}
