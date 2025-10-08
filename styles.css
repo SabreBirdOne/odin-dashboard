@@ -11,7 +11,7 @@ body {
 .sideBar {
     background-color: lightskyblue;
     display: grid;
-    grid-template-rows: 8vh 25vh 12vh;
+    grid-template-rows: 2rem 12rem 6rem;
     padding: 1rem;
 }
 
@@ -82,8 +82,12 @@ form input {
     grid-row: 1 / 3;
 }
 
-.yourProjectsSection > * {
+.yourProjectsSection, .announcementsSection, .trendingSection > * {
     margin: 1rem;
+}
+
+.yourProjects, .announcements, .trending {
+    margin-top: 1.5rem;
 }
 
 .yourProjects {
