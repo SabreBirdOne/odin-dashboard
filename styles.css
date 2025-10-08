@@ -9,9 +9,13 @@ body {
 }
 
 .sideBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: grid;
+    max-height: 60vh;
+    padding: 1rem;
+}
+
+.sideBar > * {
+    list-style-type: none;
 }
 
 .sideBar ul {
@@ -22,9 +26,6 @@ body {
     margin: 0.5rem;
 }
 
-.sideBar a {
-    text-decoration: none;
-}
 
 .headerBar1, .headerBar2 {
     padding: 1rem;
