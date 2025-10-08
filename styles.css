@@ -32,7 +32,8 @@ body {
 }
 
 .headerBar1, .headerBar2 {
-    padding: 1rem;
+    padding: 0.75rem;
+    margin-left: 1.5rem;
 }
 
 .headerBar1 {
@@ -47,14 +48,16 @@ form input {
 }
 
 .headerBar2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
     justify-content: space-between;
     align-items: center;
 }
 
 .greeting {
     display: grid;
-    grid-template: repeat(2, 1fr) / 1fr minmax(20ch, 2fr);
+    grid-template: 1fr 1.5fr / 10ch 1fr;
+    column-gap: 5px;
 }
 
 .greeting .profilePic {
@@ -64,6 +67,7 @@ form input {
 .headerBar2 ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
