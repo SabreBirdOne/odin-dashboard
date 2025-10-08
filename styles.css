@@ -27,22 +27,23 @@ body {
     margin: 0.5rem;
 }
 
+.sideBar ul li a {
+    text-decoration: none;
+}
 
 .headerBar1, .headerBar2 {
     padding: 1rem;
 }
 
 .headerBar1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 5ch 1fr 5ch 10ch 20ch;
     gap: 2rem;
 }
 
-.headerBar1 form {
-    flex: 1;
-}
-
 form input {
-    width: 50vw;
+    width: 80ch;
+    justify-self: start;
 }
 
 .headerBar2 {
