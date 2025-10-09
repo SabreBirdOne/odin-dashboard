@@ -137,3 +137,22 @@ form input {
     border-top: 2px solid lightgray;
 }
 
+.trending {
+    padding: 2rem;
+    
+    display: grid;
+    row-gap: 1rem;
+}
+
+.trending .trendCard {    
+    display: grid;
+    grid-template: repeat(2, 1fr) / 1fr 4fr;
+}
+
+.trending .trendCard > div, .trendCard > p {
+    font-size: 0.75rem;
+}
+
+.trending .trendCard img {
+    grid-row: 1 / 3;
+}
