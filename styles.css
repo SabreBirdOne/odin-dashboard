@@ -43,7 +43,7 @@ body {
 }
 
 form input {
-    width: 80ch;
+    width: 85%;
     justify-self: start;
 }
 
@@ -84,8 +84,6 @@ form input {
     gap: 2rem;
     align-items: stretch;
 }
-
-
 
 .projectCard, .announcements, .trending {
     background-color: white;
