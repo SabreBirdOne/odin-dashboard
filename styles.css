@@ -66,20 +66,31 @@ body {
     height: 2rem;
 }
 
-
 .headerBar1, .headerBar2 {
     padding: 0.75rem;
     margin-left: 1.5rem;
 }
 
 .headerBar1 {
+    height: 5vh;
+
     display: grid;
     grid-template-columns: 0.5fr 10fr 0.5fr 1fr 2fr;
-    gap: 2rem;
+    column-gap: 1rem 2rem;
+    align-items: center;
+}
+
+.headerBar1 img:first {
+    justify-self: end;
 }
 
 form input {
-    width: 85%;
+    height: 3vh;
+    width: 90%;
+    background-color: lightgray;
+    border: none;
+    border-radius: 0.75rem;
+
     justify-self: start;
 }
 
