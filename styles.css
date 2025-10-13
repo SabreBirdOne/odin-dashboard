@@ -141,15 +141,16 @@ form input {
     padding: 2rem;
     
     display: grid;
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .trending .trendCard {    
     display: grid;
     grid-template: repeat(2, 1fr) / 1fr 4fr;
+    column-gap: 1rem;
 }
 
-.trending .trendCard > div, .trendCard > p {
+.trendCard > div, .trendCard > p {
     font-size: 0.75rem;
 }
 
