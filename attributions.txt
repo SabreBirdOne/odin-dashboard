@@ -45,3 +45,6 @@ https://pictogrammers.com/library/mdi/icon/eye-plus-outline/
 
 source-fork.svg
 https://pictogrammers.com/library/mdi/icon/source-fork/
+
+CSS Filter from Stack Overflow thread:
+https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element

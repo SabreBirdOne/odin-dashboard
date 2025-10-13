@@ -14,33 +14,55 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: 1fr 3.5fr;
 
     font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.sideBar {
-    background-color: lightskyblue;
-    display: grid;
-    grid-template-rows: 2rem 12rem 6rem;
-    padding: 1rem;
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(7483%) hue-rotate(7deg) brightness(113%) contrast(99%);
 }
 
-.sideBar > * {
-    list-style-type: none;
+.sideBar {
+    background-color: rgb(0, 115, 255);
+    padding: 1rem;
+
+    display: grid;
+    grid-template-rows: 2rem 12rem 6rem;
+    gap: 3rem;
 }
 
 .sideBar ul {
-    margin-top: 2rem;
+    list-style-type: none;
+
+    display: grid;
+    row-gap: 1rem;
 }
 
-.sideBar ul li, .sideBar h1 {
-    margin: 0.5rem;
+.sideBar ul li {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    
+    align-items: center;
+    column-gap: 1rem;
+
 }
 
-.sideBar ul li a {
+.sideBar ul li a, .sideBar ul li h2 {
     text-decoration: none;
+    font-weight: bolder;
+    color: white;
 }
+
+.sideBar ul li img {
+    justify-self: center;
+    height: 1rem;
+}
+
+.sideBar ul:first-child li img {
+    height: 2rem;
+}
+
 
 .headerBar1, .headerBar2 {
     padding: 0.75rem;
