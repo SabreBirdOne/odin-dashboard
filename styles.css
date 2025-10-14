@@ -66,8 +66,21 @@ body {
     height: 2rem;
 }
 
+.mainBar {
+    background-color: lightgrey;
+}
+
+.headersDiv {
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+}
+
+.headersDiv, .projectCard, .announcements, .trending {
+    box-shadow: 10px 10px 10px rgb(175, 175, 175);
+}
+
 .headerBar1 {
-    margin: 1rem 0 1rem 3rem;
+    padding: 1rem 0 1rem 3rem;
 
     display: grid;
     grid-template-columns: 1fr 18fr 1fr 1fr 2fr 5fr;
@@ -104,7 +117,7 @@ form input {
 }
 
 .headerBar2 {
-    margin: 1.5rem 0 1rem 3rem;
+    padding: 1.5rem 0 1rem 3rem;
 
     display: grid;
     grid-template-columns: 1.5fr 1fr; 
@@ -144,11 +157,9 @@ form input {
     color: white;
     border-radius: 15px;
     border: none;
-    
 }
 
 .mainContent {
-    background-color: lightgrey;
     display: grid;
     grid-template: repeat(2, 1fr) / 2.5fr 1fr;
     padding: 1.5rem 1rem;
