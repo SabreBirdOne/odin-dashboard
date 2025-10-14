@@ -1,0 +1,58 @@
+PROJECT PROGRESS
+
+This project took me a few hours. 10-12 hours? I didn't have a good plan to tackle it. 
+
+I didn't add dummy images to help me with the layout and padding, 
+so I had to backtrack when I finally added assets. 
+
+I frequently revisit parts of the webpage and edit them constantly, 
+so my commits are not really clean. 
+
+And I missed or skipped over some details in the mockup to focus on getting CSS grid to work, 
+so sometimes the padding and margins messes up my grid templates.
+
+I got rusty with some CSS concepts, especially stuff I haven't had as much exercise as others,
+So I spent time looking them up, especially near the finish line where I didn't do much CSS Grid coding.
+
+CSS GRID vs FLEXBOX
+
+This project focuses on CSS Grid. I got the grasp of it pretty quickly, which is great. 
+
+But I'm starting to see why Flexbox is here to stay. I didn't really use much Flexbox in this project at all, 
+"you have to Grid it" kind of attitude. 
+
+CSS Grid is great for precise placements. I find it easier to use Flexbox if precise positioning isn't as important,
+so I would use it in many places if it were up to me.
+
+CHROME DEV TOOLS
+
+Chrome Dev Tools are really living up to its name, as a "development" tool, not just for debugging.
+I use it much more here than in previous front-end projects, ...well also because I'm starting to forget stuff that 
+the tool reminds me of.
+
+I think I need to take advantage of its ability to manipulate the DOM 
+so I don't have to refresh the browser so often, the clunkiness doesn't help.
+
+FRONT END DEVELOPMENT 
+
+All of these front end projects only give me some screenshot of the webpage. While Odin's page has hints on 
+how to proceed, I'm still not used to translating the mockup into CSS to match it as well. 
+
+I like how some of the exercises have a list of self-check items, but we don't do that here in the front end 
+world do we? That's kinda sad.
+
+RESPONSIVE DESIGN
+
+I've been trying to make my solution as responsive as I can, but the mockup doesn't really show how 
+the page responds to view port changes. I think I'm getting ahead of myself - I know Odin will cover this later.
+
+I use rem too much as the unit of measure across the project. My page will probably blow up if the user prefers 
+a different rem size in their browsers. I also use fractional units (fr) a lot for my CSS Grids.
+
+I don't think AI can do responsive design just yet. You need imagination to really get it to work. 
+Human-built websites mess this up all the time too, especially the out-dated ones that people might train their AI on.
+
+CONCLUSION
+
+What a workout in all things CSS this project is. Front end development tastes bittersweet to me.
+I'm much stronger in backend aspects from my CS major coursework...
